@@ -1,0 +1,85 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background: rgb(191, 191, 235);
+}
+.manu{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin: 0%;
+
+}
+ul li:hover{
+    background: rgb(194, 54, 54);
+}
+li{
+    list-style: none;
+    padding: 15px 25px;
+
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.home{
+    color: rgb(3, 180, 180);
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    
+    
+
+}
+p{
+    text-align: center;
+    color: #fff;
+    width: 70%;
+    margin-left: 15%;
+
+}
+button{
+    margin-left: 45%;
+    background: rgba(9, 178, 245, 0.527);
+    padding:10px 25px;
+    border: none;
+    color: rgb(247, 247, 247);
+    border-radius: 10px;
+    margin-top: 3%;  
+    cursor: pointer;
+}
+button:hover{  
+      background: rgba(144, 212, 18, 0.815);
+}
+h2{
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+
+}
+footer{
+    background: rgba(10, 10, 10, 0.527);
+    padding: 20px;
+    text-align: center;
+}
